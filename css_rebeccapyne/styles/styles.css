@@ -21,7 +21,12 @@ h3 {
 
 ul {
     list-style-type: none;
-      }  
+      }
+
+ul > li:hover {
+    color:#114f62;
+      }
+        
 
 .blurb {
   display: flex;
@@ -30,11 +35,18 @@ ul {
   padding-bottom:10px;
   padding-left: 0%;
   padding-right: 0%;
+  
 
 }
 
 span {
   margin: 10px;
+
+}
+
+span::first-letter {
+  color: #114f62;
+  font-size: large;
 }
 
 .dated {
