@@ -8,36 +8,13 @@ body {
 
   }
   
-  section {
-max-width: 90%;
-align-content: center;
+section {
+    max-width: 100%;
+    align-content: center;
 
   }
 
-  h1, h3 {
-    color: white;
-    text-align: left;
-    background-color: #416a70;
-    padding: 10px;
-  }
-
-  h5 {
-    color: #416a70;
-    text-align: left;
-    font-style: italic;
-    
-    
-  }
-  
-  p, form {
-    background-color: #daeef1;    
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    margin:20px;
-  
-  }
-
-  ul {
+ul {
     background-color: #daeef1;
     font-family: Helvetica, Arial, sans-serif;
     font-size: larger;
@@ -46,6 +23,17 @@ align-content: center;
     margin:10px;
     list-style-type: none;
       }
+  
       
-    
+#workexp {
+  background: #416a70;
+     }   
 
+
+.blurb {
+  background-color: blue;
+}
+
+.dated {
+  background-color: pink;
+}
