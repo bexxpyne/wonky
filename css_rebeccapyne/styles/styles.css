@@ -1,25 +1,81 @@
 body {
-    font-family: 'Crimson Pro', serif;
-    padding: 10px;
-    max-width: 90%;
-    margin-left:5%;
-    margin-right:5%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    align-content: center;
+    width:100;
   }
-  
 section {
     max-width: 100%;
     align-content: center;
 
   }
 
+h3 {
+  background-color: #0a2e39;
+  color: white;
+  height: 100%;
+  padding: 10px;
+}
+
 ul {
     list-style-type: none;
       }  
 
 .blurb {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 0%;
+  padding-right: 0%;
+
+}
+
+span {
+  margin: 10px;
 }
 
 .dated {
-  background-color: pink;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 25% 25% 50%;
+  column-gap: 1em;
+  row-gap: 1em;
+  max-width: 95%;
+  padding:0%;
+}
+
+form {
+  padding: 10px;
+}
+
+.quals {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 30% 70%;
+  column-gap: 1em;
+  row-gap: 1em;
+  max-width: 95%;
+  padding:0%;
+}
+
+/* responsive design */
+@media screen and (max-width: 640px){
+body {
+  font-size: 11pt;
+
+} 
+.dated .quals {
+  column-gap: 5px;
+  row-gap: 5px;
+  
+}
+  span {
+    margin:5px;
+  }
+textarea {
+  max-width: 100%;
+}
 }
