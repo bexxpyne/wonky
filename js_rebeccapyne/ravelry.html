@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ 
+  
+      
+        
+        </style> 
+        <link rel="stylesheet" href="ravstyle.css">
+</head>
+<body>
+    <script type="text/javascript" src="//js.ravelry.com/javascripts/dug.js"></script><!-- you can customize this template -->
+<script id="dugjs-template" type="text/x-dug-template">
+  {{#projects}}
+    <div class="rav_project">
+      <a class="rav_title" href="{{url}}">{{name}}</a>
+      <a class="rav_photo rav_photo_count_{{photoCount}}" href="#"><img src="{{thumbnail.src}}"></a>
+
+      </div>
+    </div>
+  {{/projects}}
+</script>
+<script>
+    dug({
+      cacheExpire: 0,
+      endpoint: "http://api.ravelry.com/projects/BexxP/progress.json?key=3974d7dffe72f0c77a6ec26beeb36d87025fcae9&status=in-progress&notes=false",
+      template: '#dugjs-template'
+    });
+  
+  </script>
+</body>
+</html>

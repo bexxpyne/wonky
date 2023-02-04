@@ -1,5 +1,5 @@
-let firstName = 'ahretne';
-let lastName = 'wgewg';
+let firstName = 'sean';
+let lastName = 'mcnamara';
 
 
 

@@ -1,0 +1,23 @@
+.rav_project {
+    margin-bottom: 5px;
+    width: 100px;
+    overflow: hidden;
+    text-align: center;}
+
+    .rav_title {
+        font-size: 1em;
+      }
+
+          .rav_photo {
+            display: block;
+            margin-top: 5px;
+            border-bottom: none;}
+
+
+        .rav_photo, .rav_photo img {
+            width: 100px;
+            height: 100px;
+          }
+          
+     
+
